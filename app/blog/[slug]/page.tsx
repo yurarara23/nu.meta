@@ -7,8 +7,8 @@ type Props = {
   params: { slug: string }
 };
 
-export default function BlogPage({ params }: Props) {
-  const { content, data } = getMarkdownContent(params.slug, 'blog');
+export default async function BlogPage({ params }: Props) {
+  const { content, data } = await getMarkdownContent(params.slug, 'blog');
 
   return (
     <main className="prose dark:prose-invert mx-auto p-4">

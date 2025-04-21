@@ -7,8 +7,8 @@ type Props = {
   params: { slug: string }
 };
 
-export default function InfoPage({ params }: Props) {
-  const { content, data } = getMarkdownContent(params.slug, 'info');
+export default async function InfoPage({ params }: Props) {
+  const { content, data } = await getMarkdownContent(params.slug, 'info');
 
   return (
     <main className="prose dark:prose-invert mx-auto p-4">
