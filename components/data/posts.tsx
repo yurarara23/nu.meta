@@ -10,7 +10,7 @@ type Post = {
 export const posts: Post[] = [
   {
     title: "記事1",
-    image: "/6.png",
+    image: "/6new.png",
     category: "blog",
     slug: "blog",
     author: "yurarara",
