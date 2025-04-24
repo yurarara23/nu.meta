@@ -13,11 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "NU.MetaCreate",
-  description: "NU.MetaCreateの公式サイト",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -34,3 +29,29 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  title: "NU.MetaCreate",
+  description: "NU.MetaCreateの公式サイト",
+  openGraph: {
+    title: "NU.MetaCreate",
+    description: "NU.MetaCreateの公式サイト",
+    url: "https://nu-meta-gmqa7h81i-yurarara23s-projects.vercel.app/",
+    images: [
+      {
+        url: "/ogp/member.png", 
+        width: 1200,
+        height: 630,
+        alt: "NU.MetaCreate",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NU.MetaCreate",
+    description: "NU.MetaCreateの公式サイト",
+    images: ["/ogp/default.png"], 
+  },
+};
+
