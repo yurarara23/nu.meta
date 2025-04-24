@@ -6,7 +6,8 @@ type PostCardProps = {
   image: string;
   category: string;
   slug: string;
-  author: string; // ← 追加！
+  author: string;
+  date: string;
 };
 
 const PostCard = ({ title, image, category, slug, author }: PostCardProps) => {
