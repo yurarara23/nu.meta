@@ -9,7 +9,7 @@ type Post = {
 
 export const posts: Post[] = [
   {
-    title: "記事6",
+    title: "記事1",
     image: "/6.png",
     category: "blog",
     slug: "blog",
@@ -18,10 +18,34 @@ export const posts: Post[] = [
   },
   {
     title: "お知らせ",
-    image: "/7.png",
+    image: "/1.png",
     category: "info",
     slug: "info",
     author: "yurarara",
     date: "2025-04-07",
+  },
+  {
+    title: "記事２",
+    image: "/2.png",
+    category: "blog",
+    slug: "blog",
+    author: "yurarara",
+    date: "2025-04-05",
+  },
+  {
+    title: "記事3",
+    image: "/3.png",
+    category: "blog",
+    slug: "blog",
+    author: "yurarara",
+    date: "2025-04-03",
+  },
+  {
+    title: "記事4",
+    image: "/4.png",
+    category: "blog",
+    slug: "blog",
+    author: "yurarara",
+    date: "2025-04-02",
   },
 ];
