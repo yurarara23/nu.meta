@@ -3,6 +3,11 @@ import { getMarkdownContent } from '@/lib/markdown';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 
+export async function generateStaticParams() {
+  // 必要に応じて、すべてのスラッグを取得するロジックを追加
+  return []; // 例: [{ slug: 'example' }]
+}
+
 export default async function BlogPage({ params }: { params: { slug: string } }) {
   const { content, data } = await getMarkdownContent(params.slug, 'blog');
 
