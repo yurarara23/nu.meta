@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NU.MetaCreate",
     description: "NU.MetaCreateの公式サイト",
-    url: "https://nu-meta-gmqa7h81i-yurarara23s-projects.vercel.app/",
+    url: "https://nu-meta.vercel.app/",
     images: [
       {
         url: "/ogp/member.png", 
