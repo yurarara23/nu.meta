@@ -3,11 +3,7 @@ import { getMarkdownContent } from '@/lib/markdown';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 
-type Props = {
-  params: { slug: string }
-};
-
-export default async function BlogPage({ params }: Props) {
+export default async function BlogPage({ params }: { params: { slug: string } }) {
   const { content, data } = await getMarkdownContent(params.slug, 'blog');
 
   return (

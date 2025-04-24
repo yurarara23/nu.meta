@@ -9,4 +9,3 @@ export async function getMarkdownContent(slug: string, folder: string) {
   const { data, content } = matter(fileContent);
   return { data, content };
 }
-
