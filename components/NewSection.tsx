@@ -1,4 +1,4 @@
-import { posts } from "./data/posts";
+import { posts } from "../data/posts";
 import PostCard from "./PostCard";
 
 // 日付の新しい順に並び替えて、上位5件を取得

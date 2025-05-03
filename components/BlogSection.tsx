@@ -1,4 +1,4 @@
-import { posts } from "./data/posts"; // ← 投稿データをインポート
+import { posts } from "../data/posts"; // ← 投稿データをインポート
 import PostCard from "./PostCard";
 
 const BlogSection = () => (
