@@ -12,27 +12,28 @@ const WhatNumSection = () => {
 
         {/* 横並びボタンエリア */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a
-            href="https://example.com/1"
-            className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
-            target="_blank" rel="noopener noreferrer"
-          >
-            制作物一覧
-          </a>
-          <a
-            href="https://yurarara23.github.io/nu.docs2.1/"
-            className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
-            target="_blank" rel="noopener noreferrer"
-          >
-            Nu.Docs2.1
-          </a>
-          <a
-            href="https://example.com/3"
-            className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
-            target="_blank" rel="noopener noreferrer"
-          >
-            お問い合わせ(準備中)
-          </a>
+        <a
+  href="https://example.com/1"
+  className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+  target="_blank" rel="noopener noreferrer"
+>
+  制作物一覧
+</a>
+<a
+  href="https://yurarara23.github.io/nu.docs2.1/"
+  className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+  target="_blank" rel="noopener noreferrer"
+>
+  Nu.Docs2.1
+</a>
+<a
+  href="https://example.com/3"
+  className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+  target="_blank" rel="noopener noreferrer"
+>
+  お問い合わせ(準備中)
+</a>
+
         </div>
       </div>
     </section>
