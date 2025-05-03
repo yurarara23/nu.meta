@@ -11,7 +11,7 @@ Type error: Type 'Props' does not satisfy the constraint 'PageProps'.
 
 ##  原因
 
-Next.js 15 では、**App Router の `params` が Promise で返される** ように仕様変更されたっす。そのため、従来のように同期的なオブジェクトとして扱うと型エラーが発生するっす。
+Next.js 15 では、**App Router の `params` が Promise で返される** ように仕様変更された。そのため、従来のように同期的なオブジェクトとして扱うと型エラーが発生する。
 
 ##  解決方法
 
@@ -35,10 +35,10 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 ##  補足
 
 - `params` を `await` する必要がある！
-- `generateMetadata` の中でも同じように `await params` する必要ありっす
+- `generateMetadata` の中でも同じように `await params` する必要あり
 - `Promise<any>` じゃなくて、ちゃんと型を定義しよう（例: `Promise<{ slug: string }>`）
 
-## 🔧 ESLintエラー
+##  ESLintエラー
 
 エラー：
 ```
@@ -57,5 +57,5 @@ export async function generateMetadata(
 }
 ```
 
-Next.js 15 では動的パラメータが非同期になったっす。  
+Next.js 15 では動的パラメータが非同期になった。  
 App Router で `params` を使うときは `await` を忘れずに
