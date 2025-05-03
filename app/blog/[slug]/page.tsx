@@ -30,16 +30,3 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   );
 }
 
-// generateMetadata：ページに関連するメタデータを生成
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<any> {
-  const { slug } = await params;  // `params`をawaitで解決
-  const post = getPostBySlug(slug); // slugで投稿を取得
-
-  if (!post) {
-    return {
-      title: "記事が見つからないっす",
-      description: "指定された記事が存在しません。",
-    };
-  }
-
-}
