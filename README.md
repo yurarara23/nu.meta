@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+#  Next.js 15 エラーと対処法
 
-First, run the development server:
+##  発生したエラー
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Type error: Type 'Props' does not satisfy the constraint 'PageProps'.
+  Types of property 'params' are incompatible.
+    Type '{ slug: string; }' is missing the following properties from type 'Promise': then, catch, finally, [Symbol.toStringTag]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  原因
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js 15 では、**App Router の `params` が Promise で返される** ように仕様変更されたっす。そのため、従来のように同期的なオブジェクトとして扱うと型エラーが発生するっす。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  解決方法
 
-## Learn More
+### 修正前（エラーが出る）
 
-To learn more about Next.js, take a look at the following resources:
+```tsx
+export default function Page({ params }: { params: { slug: string } }) {
+  const post = getPostBySlug(params.slug); //  `params`は同期じゃない
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 修正後（OK！）
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```tsx
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug); //  OK！
+}
+```
 
-## Deploy on Vercel
+##  補足
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `params` を `await` する必要がある！
+- `generateMetadata` の中でも同じように `await params` する必要ありっす
+- `Promise<any>` じゃなくて、ちゃんと型を定義しよう（例: `Promise<{ slug: string }>`）
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 ESLintエラー
+
+エラー：
+```
+Unexpected any. Specify a different type.
+```
+
+解決：
+```tsx
+import type { Metadata } from "next";
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug } = await params;
+  // ...
+}
+```
+
+Next.js 15 では動的パラメータが非同期になったっす。  
+App Router で `params` を使うときは `await` を忘れずに
