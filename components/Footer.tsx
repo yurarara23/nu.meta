@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-white py-6 px-6 mt-12">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         {/* 左：コピーライト */}
-        <p className="text-sm">&copy; 2025 NU.MetaCreate仮. All rights reserved.</p>
+        <p className="text-sm">2025 NU.MetaCreate</p>
 
         {/* 右：リンク＋GitHubアイコン */}
         <div className="flex items-center gap-4">
