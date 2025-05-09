@@ -1,6 +1,6 @@
 ---
-image: "/1.png"
 title: "公式ページ開設"
+image: "/1.png"
 author: "yurarara"
 date: "2025-05-06"
 ---

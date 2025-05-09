@@ -16,4 +16,3 @@ export function getMarkdownPost(slug: string) {
     content,
   };
 }
-
