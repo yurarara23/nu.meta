@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/components/Header"; // ← ヘッダー読み込み！
-import Footer from "@/components/Footer"; // ← フッター読み込み！
+import Header from "@/components/Header"; 
+import Footer from "@/components/Footer"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -56,4 +56,3 @@ export const metadata: Metadata = {
     images: ["/ogp/default.png"], 
   },
 };
-
