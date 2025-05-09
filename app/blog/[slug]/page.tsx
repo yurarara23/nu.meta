@@ -1,6 +1,6 @@
 import { getMarkdownPost } from "@/lib/getMarkdownPost";
 import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import Image from "next/image"
 
 // PostPageコンポーネント：動的にブログ投稿を表示
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -10,17 +10,22 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   return (
     <div className="p-8">
       {post.image && (
-        <img
-          src={post.image}
-          alt={post.title}
-          className="mb-6 w-full max-h-[400px] object-cover rounded-xl shadow"
-        />
-      )}
+  <div className="mb-6 relative w-full h-48 sm:h-64 md:h-80 lg:h-[400px]">
+    <Image
+      src={post.image}
+      alt={post.title}
+      layout="fill"
+      objectFit="cover"
+      className="rounded-xl shadow"
+    />
+  </div>
+)}
+
       <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
       <div className="mb-4 text-gray-600">著者: {post.author}</div>
 
       <div className="prose prose-lg max-w-none">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+         <ReactMarkdown>
           {post.content}
         </ReactMarkdown>
       </div>
