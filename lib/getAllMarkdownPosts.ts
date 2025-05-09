@@ -19,7 +19,6 @@ export function getAllMarkdownPosts() {
         slug,
         title: data.title,
         image: data.image,
-        category: data.category || "info",
         author: data.author,
         date: data.date,
       };
