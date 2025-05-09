@@ -10,15 +10,6 @@ const Header = () => {
         <span className="font-bold text-lg">NU.MetaCreate仮</span>
       </Link>
 
-      {/* 右：ナビゲーション */}
-      <nav className="flex gap-6">
-        <Link href="/blog" className="hover:underline">
-          blog
-        </Link>
-        <Link href="/info" className="hover:underline">
-          info
-        </Link>
-      </nav>
     </header>
   );
 };
