@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-export function getAllMarkdownPosts() {
+export function getAllMarkdown() {
   const dirPath = path.join(process.cwd(), "app/blog");
   const files = fs.readdirSync(dirPath);
 

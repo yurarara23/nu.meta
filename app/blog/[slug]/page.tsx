@@ -1,11 +1,11 @@
-import { getMarkdownPost } from "@/lib/getMarkdownPost";
+import { getMarkdown } from "@/lib/getMarkdown";
 import ReactMarkdown from "react-markdown";
 import Image from "next/image"
 
 // PostPageコンポーネント：動的にブログ投稿を表示
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = getMarkdownPost(slug);
+  const post = getMarkdown(slug);
 
   return (
     <div className="p-8">

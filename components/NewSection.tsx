@@ -1,9 +1,9 @@
 // app/components/NewSection.tsx
 import PostCard from "./PostCard";
-import { getAllMarkdownPosts } from "@/lib/getAllMarkdownPosts";
+import { getAllMarkdown } from "@/lib/getAllMarkdown";
 
 const NewSection = () => {
-  const posts = getAllMarkdownPosts();
+  const posts = getAllMarkdown();
 
   const latestPosts = [...posts]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())

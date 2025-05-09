@@ -1,9 +1,9 @@
 // app/components/BlogSection.tsx
 import PostCard from "./PostCard";
-import { getAllMarkdownPosts } from "@/lib/getAllMarkdownPosts";
+import { getAllMarkdown } from "@/lib/getAllMarkdown";
 
 const BlogSection = () => {
-  const posts = getAllMarkdownPosts(); // SSR context または build 時に取得
+  const posts = getAllMarkdown(); // SSR context または build 時に取得
 
   return (
     <section className="py-8 px-6">
