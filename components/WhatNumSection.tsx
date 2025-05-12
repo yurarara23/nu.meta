@@ -26,13 +26,6 @@ const WhatNumSection = () => {
 >
   Nu.Docs2.1
 </a>
-<a
-  href="https://example.com/3"
-  className="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
-  target="_blank" rel="noopener noreferrer"
->
-  お問い合わせ(準備中)
-</a>
 
         </div>
       </div>
