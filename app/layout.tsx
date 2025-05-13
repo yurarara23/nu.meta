@@ -53,6 +53,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NU.MetaCreate",
     description: "NU.MetaCreateの公式サイト",
-    images: ["/ogp/default.png"], 
+    images: ["/ogp/member.png"], 
   },
 };
