@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     url: "https://nu-meta.vercel.app/blog/open",
     images: [
       {
-        url: "/3.png", 
+        url: "/ogp/picture.png", 
         width: 1200,
         height: 630,
         alt: "NU.MetaCreate",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "記事",
     description: "記事内容",
-    images: ["/3.png"], 
+    images: ["/ogp/picture.png"], 
   },
 };
 
