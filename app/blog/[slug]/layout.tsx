@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { getMarkdown } from "@/lib/getMarkdown";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = getMarkdown(params.slug);
+  const { slug } = await params;
+  const post = getMarkdown(slug);
 
   return {
     title: post.title,
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.content.slice(0, 100) + "...",
-      url: `https://nu-meta.vercel.app/blog/${params.slug}`,
+      url: `https://nu-meta.vercel.app/blog/${slug}`,
       images: post.image
         ? [
             {
@@ -33,9 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: post.title,
       description: post.content.slice(0, 100) + "...",
-      images: post.image ? [`https://nu-meta.vercel.app${post.image}`] : [],
+      images: post.image
+        ? [post.image.startsWith("http")
+            ? post.image
+            : `https://nu-meta.vercel.app${post.image}`]
+        : [],
     },
   };
 }
-
-export default function Page() {}
