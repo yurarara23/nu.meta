@@ -1,28 +1,41 @@
 import type { Metadata } from "next";
+import { getMarkdown } from "@/lib/getMarkdown";
 
-export const metadata: Metadata = {
-  title: "ブログ記事",
-  description: "NU.MetaCreateのブログ記事",
-  openGraph: {
-    title: "ブログ記事",
-    description: "ブログ内容",
-    url: "https://nu-meta.vercel.app/blog/open",
-    images: [
-      {
-        url: "/ogp/picture.png", 
-        width: 1200,
-        height: 630,
-        alt: "NU.MetaCreate",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "記事",
-    description: "記事内容",
-    images: ["/ogp/picture.png"], 
-  },
+type Props = {
+  params: { slug: string };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const post = getMarkdown(params.slug);
+
+  return {
+    title: post.title,
+    description: `${post.title} by ${post.author ?? "Unknown"}`,
+    openGraph: {
+      title: post.title,
+      description: post.content.slice(0, 100) + "...",
+      url: `https://nu-meta.vercel.app/blog/${params.slug}`,
+      images: post.image
+        ? [
+            {
+              url: post.image.startsWith("http")
+                ? post.image
+                : `https://nu-meta.vercel.app${post.image}`,
+              width: 1200,
+              height: 630,
+              alt: post.title,
+            },
+          ]
+        : [],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.content.slice(0, 100) + "...",
+      images: post.image ? [`https://nu-meta.vercel.app${post.image}`] : [],
+    },
+  };
+}
 
 export default function Page() {}
