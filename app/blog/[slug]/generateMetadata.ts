@@ -1,13 +1,13 @@
+// app/blog/[slug]/generateMetadata.ts
 import type { Metadata } from "next";
 import { getMarkdown } from "@/lib/getMarkdown";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getMarkdown(slug);
+  const post = getMarkdown(params.slug);
 
   return {
     title: post.title,
@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.content.slice(0, 100) + "...",
-      url: `https://nu-meta.vercel.app/blog/${slug}`,
+      url: `https://nu-meta.vercel.app/blog/${params.slug}`,
       images: post.image
         ? [
             {
