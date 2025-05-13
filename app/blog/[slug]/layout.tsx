@@ -1,4 +1,4 @@
-// app/blog/[slug]/generateMetadata.ts
+// app/blog/[slug]/layout.tsx
 import type { Metadata } from "next";
 import { getMarkdown } from "@/lib/getMarkdown";
 
@@ -42,3 +42,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
+
+export default function Page() {}
