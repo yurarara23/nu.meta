@@ -24,3 +24,5 @@ export const metadata: Metadata = {
     images: ["/3.png"], 
   },
 };
+
+export default function Page() {}
