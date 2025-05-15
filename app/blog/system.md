@@ -1,6 +1,6 @@
 ---
 title: "機能紹介"
-image: "/8.png"
+image: "/yurarara/8.png"
 author: "yurarara"
 date: "2025-05-09"
 ---
