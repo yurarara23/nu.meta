@@ -1,11 +1,11 @@
 ---
-title: "機能紹介"
+title: "blogの書き方"
 image: "/yurarara/8.png"
 author: "yurarara"
 date: "2025-05-09"
 ---
 
-# 記事(blog)の書き方＆使える機能一覧
+# 記事(blog)の書き方＆Markdown記法紹介
 
 このサイトは現在**未実装の機能**や**非効率な処理**が一部存在します。  
 今後のアップデートにご期待ください！
