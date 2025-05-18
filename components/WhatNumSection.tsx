@@ -4,10 +4,10 @@ const WhatNumSection = () => {
   return (
     <section className="px-6 py-12 bg-white text-black">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">What is NU.MetaCreate?</h2>
+        <h2 className="text-3xl font-bold mb-4">What is Nu.Metasou?</h2>
         <p className="text-lg mb-8">
-          NU.MetaCreateは主にVRC用のワールドやギミックを制作する団体です。  
-          学生達で集まって、それぞれの技術を持ち寄って、ワールドやギミック等を作っています。
+          Nu.Metasouは、VRC（VRChat）向けのワールドやギミックの制作をはじめ、3Dモデル制作やWeb開発など、デジタル分野に特化した創作活動を行う団体です。
+          学生たちが集い、それぞれのスキルを持ち寄って、魅力的なワールドやユニークなギミックを協力して制作しています。
         </p>
 
         {/* 横並びボタンエリア */}
