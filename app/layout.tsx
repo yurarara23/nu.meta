@@ -33,26 +33,26 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
-  title: "NU.MetaCreate",
-  description: "NU.MetaCreateの公式サイト",
+  title: "Nu.Metasou",
+  description: "Nu.Metasouの公式サイト",
   openGraph: {
-    title: "NU.MetaCreate",
-    description: "NU.MetaCreateの公式サイト",
+    title: "Nu.Metasou",
+    description: "Nu.Metasouの公式サイト",
     url: "https://nu-meta.vercel.app/",
     images: [
       {
         url: "/ogp/member.png", 
         width: 1200,
         height: 630,
-        alt: "NU.MetaCreate",
+        alt: "Nu.Metasou",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NU.MetaCreate",
-    description: "NU.MetaCreateの公式サイト",
-    images: ["/ogp/member.png"], 
+    title: "Nu.Metasou",
+    description: "Nu.Metasouの公式サイト",
+    images: ["/ogp/member.png"],
   },
 };
