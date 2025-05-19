@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const members = [
   {
-    name: "ジン",
+    name: "iwa",
     year: "2B",
     department: "情報科",
     image: "/icons/jin.png",
