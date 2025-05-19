@@ -72,13 +72,16 @@ export default function MemberListPage() {
             className="bg-gray-900 rounded-2xl p-4 shadow-md hover:shadow-lg transition duration-200 hover:bg-gray-800"
           >
             <div className="flex items-center space-x-4">
+              {member.image ? (
               <Image
-                src={member.image}
-                alt={member.name}
-                width={64}
-                height={64}
-                className="rounded-full object-cover"
-              />
+                    src={member.image}
+                    alt={member.name}
+                    width={64}
+                    height={64}
+                    className="rounded-full object-cover"
+                    />
+                ) : null}
+
               <div>
                 <h2 className="text-xl font-semibold text-[#60a5fa]">{member.name}</h2>
                 <p className="text-sm text-gray-300">

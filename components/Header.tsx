@@ -7,7 +7,7 @@ const Header = () => {
       {/* 左：ロゴ＋タイトルをクリックでトップに戻る */}
       <Link href="/" className="flex items-center gap-2 hover:opacity-80">
         <Image src="/logo.png" alt="Logo" width={32} height={32} />
-        <span className="font-bold text-lg">Nu.MetaCreate</span>
+        <span className="font-bold text-lg">Nu.metasou</span>
       </Link>
     </header>
   );
