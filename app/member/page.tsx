@@ -6,8 +6,8 @@ const members = [
     name: "iwa",
     year: "2B",
     department: "情報科",
-    image: "/icons/jin.png",
-    slug: "ジン",
+    image: "/icons/iwa.png",
+    slug: "iwa",
   },
   {
     name: "yurarara",
