@@ -1,6 +1,6 @@
 ---
 title: "個人ページ(iwa)"
-image: "/iwa/VRChat_2025-02-03_03-03-27.180_3840x2160.png"
+image: "/iwa/1.png"
 author: "iwa"
 date: "2025-05-20"
 ---
