@@ -5,60 +5,53 @@ const members = [
   {
     name: "iwa",
     year: "B2",
-    department: "情報科",
     image: "/icons/iwa.png",
     slug: "iwa",
   },
   {
     name: "yurarara",
     year: "B2",
-    department: "情報科",
     image: "/icons/yurarara.png",
     slug: "yurarara",
   },
   {
     name: "紗痲",
     year: "B2",
-    department: "情報科",
     image: "/icons/tokudome.png",
     slug: "紗痲",
   },
   {
     name: "ルイ",
     year: "B2",
-    department: "電子工科",
     image: "/icons/rui.png",
     slug: "ルイ",
   },
   {
     name: "水瓢瓜",
     year: "B2",
-    department: "交通科",
     image: "/icons/takahisa.png",
     slug: "水瓢瓜",
   },
   {
     name: "shiburin",
     year: "B2",
-    department: "情報科",
     image: "/icons/shiburin.png",
     slug: "shiburin",
   },
   {
     name: "masashi",
     year: "B4",
-    department: "芸術科",
     image: "/icons/masashi.png",
     slug: "masashi",
   },
   {
     name: "ぽてぃちゃん",
     year: "B2",
-    department: "芸術科",
     image: "/icons/poteychan.png",
     slug: "ぽてぃちゃん",
   },
 ];
+
 
 export default function MemberListPage() {
   return (
@@ -85,7 +78,7 @@ export default function MemberListPage() {
               <div>
                 <h2 className="text-xl font-semibold text-[#60a5fa]">{member.name}</h2>
                 <p className="text-sm text-gray-300">
-                  {member.year}・{member.department}
+                  {member.year}
                 </p>
               </div>
             </div>
