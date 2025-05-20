@@ -61,7 +61,6 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             alt={post.title}
             layout="fill"
             objectFit="cover"
-            className="rounded-xl shadow"
           />
         </div>
       )}

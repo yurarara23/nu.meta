@@ -6,12 +6,12 @@ const TermsPage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>利用規約 | Nu.Metasou</title>
+        <title>利用規約 | Nu.メタ創</title>
       </Head>
       <main className="max-w-3xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-6">利用規約</h1>
         <p className="mb-4">
-          この利用規約（以下、「本規約」といいます。）は、Nu.Metasou（以下、「当サイト」といいます。）がこのウェブサイト上で提供するサービス（以下、「本サービス」といいます。）の利用条件を定めるものです。
+          この利用規約（以下、「本規約」といいます。）は、Nu.メタ創（以下、「当サイト」といいます。）がこのウェブサイト上で提供するサービス（以下、「本サービス」といいます。）の利用条件を定めるものです。
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-2">第1条（適用）</h2>
