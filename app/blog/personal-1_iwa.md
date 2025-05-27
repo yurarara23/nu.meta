@@ -1,6 +1,6 @@
 ---
 title: "自己紹介"
-image: "/iwa/1_top.jpg"
+image: "/iwa/1_top.webp"
 author: "iwa［イワ］"
 date: "2025-05-27"
 ---
@@ -12,7 +12,7 @@ date: "2025-05-27"
 
 <p style="margin: -8px 0 -20px 3px; padding: 0;">誰もまだ見ぬ面白いものを見たくて、VRChatのワールド制作を行っています。</p>
 
-![画像](/iwa/1_top.jpg)
+![画像](/iwa/1_top.webp)
 <p style="font-size: 17px; margin: -33px 0 -8px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">Author: Artic- 　World: 2000s Classroom</p>
 
 [Xアカウント](https://x.com/iwa_vr)を置いておきます。
@@ -31,7 +31,7 @@ VRChatでは「現実にはない面白さ」を追求しているのですが�
 「プログラマーは、1+1 を 3 と定義した世界だって作ることができる」  
 という解釈です。  
 物理法則やルールを0から定義し、そういうものとして新しい世界を作ることができる人。  
-それがプログラマーなんだと。
+それがプログラマーであると。
 
 
 ### VRChatは叶えてくれる
@@ -40,7 +40,7 @@ VRChatでは「現実にはない面白さ」を追求しているのですが�
 重力を無くしてみたり、より高い次元の空間を作り出してみたり、  
 そういった現実世界からの物質的束縛をほどいていくプログラマーによって、  
 VRChatでは、想像もしてなかったワールドや文化がぽつぽつと現れてくるのです。  
-![画像](/iwa/2_column.jpg)
+![画像](/iwa/2_column.webp)
 <p style="font-size: 17px; margin: -32px 0 -18px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">Author: S_ASAGIRI 　World: space Colony ＂Island-4＂</p>
 
 #### 4次元空間を作り始めた経緯
@@ -76,7 +76,7 @@ VRChatでは、想像もしてなかったワールドや文化がぽつぽつ�
 
 <p style="margin: -8px 0 -20px 3px; padding: 0;">大変な事も時にはでてくるとは思いますが、今はめげずに目の前の作品が作りきれる所まで頑張っていこうと思います！</p>
 
-![画像](/iwa/3_column.jpg)
+![画像](/iwa/3_column.webp)
 <p style="font-size: 17px; margin: -32px 0 -18px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">Author: Ende 　World: Neon Territory</p>
 
 
