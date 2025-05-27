@@ -1,17 +1,9 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a0a0a;     /* ダーク背景 */
+  --foreground: #ededed;     /* ダーク文字色 */
 }
 
 body {
@@ -23,11 +15,10 @@ body {
 @layer utilities {
   .hidden-scrollbar {
     -ms-overflow-style: none; /* IE, Edge 対応 */
-    scrollbar-width: none; /* Firefox 対応 */
+    scrollbar-width: none;    /* Firefox 対応 */
   }
   .hidden-scrollbar::-webkit-scrollbar {
-    /* Chrome, Safari 対応 */
-    display: none;
+    display: none; /* Chrome, Safari 対応 */
   }
 }
 
@@ -40,7 +31,7 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #60a5fa; 
+  background-color: #60a5fa;
   border-radius: 9999px;
   border: 2px solid transparent;
   background-clip: content-box;
@@ -51,6 +42,7 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #60a5fa transparent;
 }
+
 
 @utility prose {
   color: #fff; /* 全体の文字色 */
