@@ -5,7 +5,7 @@ const members = [
   {
     name: "iwa",
     year: "B2",
-    image: "/icons/iwa.png",
+    image: "/icons/iwa.jpg",
     slug: "iwa",
   },
   {
