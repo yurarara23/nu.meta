@@ -1,6 +1,6 @@
 ---
 title: "blogの書き方"
-image: "/yurarara/8.png"
+image: "/yurarara/1.png"
 author: "yurarara"
 date: "2025-05-09"
 ---

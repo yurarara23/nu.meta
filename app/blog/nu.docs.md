@@ -1,6 +1,6 @@
 ---
 title: "nu.docs"
-image: "/yurarara/docs2.png"
+image: "/yurarara/2.png"
 author: "yurarara"
 date: "2025-05-17"
 ---
