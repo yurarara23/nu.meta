@@ -2,7 +2,7 @@
 title: "自己紹介2"
 image: "/yurarara/3.png"
 author: "yurarara"
-date: "2025-05-27"
+date: "2025-05-29"
 ---
 
 # 初めまして！！
