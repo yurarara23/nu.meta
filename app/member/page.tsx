@@ -15,6 +15,18 @@ const members = [
     slug: "yurarara",
   },
   {
+    name: "水瓢瓜",
+    year: "B2",
+    image: "/icons/mizmelon.png",
+    slug: "mizmelon",
+  },
+  {
+    name: "ぽてぃちゃん",
+    year: "B2",
+    image: "/icons/pothi.png",
+    slug: "pothi",
+  },
+  {
     name: "紗痲",
     year: "B2",
     image: "/icons/tokudome.png",
@@ -27,12 +39,6 @@ const members = [
     slug: "ルイ",
   },
   {
-    name: "水瓢瓜",
-    year: "B2",
-    image: "/icons/takahisa.png",
-    slug: "水瓢瓜",
-  },
-  {
     name: "shiburin",
     year: "B2",
     image: "/icons/shiburin.png",
@@ -43,12 +49,6 @@ const members = [
     year: "B4",
     image: "/icons/masashi.png",
     slug: "masashi",
-  },
-  {
-    name: "ぽてぃちゃん",
-    year: "B2",
-    image: "/icons/poteychan.png",
-    slug: "ぽてぃちゃん",
   },
 ];
 
