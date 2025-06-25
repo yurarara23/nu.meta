@@ -29,7 +29,7 @@ const members = [
   {
     name: "紗痲",
     year: "B2",
-    image: "/icons/tokudome.png",
+    image: "/syama/0.png",
     slug: "紗痲",
   },
   {

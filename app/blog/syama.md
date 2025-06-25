@@ -1,8 +1,8 @@
 ---
-title: "自己紹介"
+title: "自己紹介5"
 image: "/syama/1.png"
 author: "しゃま"
-date: "2025-06-23"
+date: "2025-06-25"
 ---
 サムネはTwilight Solitudeからお借りしました。
 
