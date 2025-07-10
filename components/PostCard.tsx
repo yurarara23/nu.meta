@@ -13,18 +13,29 @@ const PostCard = ({ title, image, slug, author }: PostCardProps) => {
   return (
     <Link
       href={`/blog/${slug}`}
-      className="block w-full bg-gray-800 shadow-md rounded overflow-hidden transition 
-             hover:shadow-lg border border-transparent hover:border-blue-400"
+      className="group block w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-md hover:shadow-purple-500/40 transition-all duration-300"
     >
-      <div className="relative w-full h-40">
-        <Image src={image} alt={title} fill className="object-cover" />
+      {/* 画像部分 */}
+      <div className="relative w-full h-48 overflow-hidden">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+        />
       </div>
-      <div className="p-4">
-        <h3 className="mt-1 font-semibold text-lg text-white">{title}</h3>
-        <p className="text-sm text-gray-500 mt-1">by {author}</p>
+
+      {/* テキスト部分 */}
+      <div className="p-5 text-white">
+        <h3 className="text-xl font-bold mb-1 group-hover:text-purple-400 transition
+               line-clamp-1">
+          {title}
+        </h3>
+        <p className="text-sm text-gray-400">by {author}</p>
       </div>
     </Link>
   );
 };
 
 export default PostCard;
+

@@ -31,7 +31,7 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #60a5fa;
+  background-color: #731e68;
   border-radius: 9999px;
   border: 2px solid transparent;
   background-clip: content-box;
@@ -40,7 +40,7 @@ body {
 /* Firefox対応（任意） */
 .custom-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #60a5fa transparent;
+  scrollbar-color: #600856 transparent;
 }
 
 
