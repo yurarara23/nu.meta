@@ -25,10 +25,10 @@ const PostCard = ({ title, image, slug, author }: PostCardProps) => {
         />
       </div>
 
-      {/* テキスト部分 */}
+      {/* テキスト部分（line-clamp-1で行数制限) */}
       <div className="p-5 text-white">
         <h3 className="text-xl font-bold mb-1 group-hover:text-purple-400 transition
-               line-clamp-1">
+               line-clamp-1"> 
           {title}
         </h3>
         <p className="text-sm text-gray-400">by {author}</p>

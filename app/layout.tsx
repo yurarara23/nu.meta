@@ -33,6 +33,7 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nu-meta.vercel.app"), //追加
   title: "Nu.メタ創",
   description: "Nu.メタ創の公式サイト",
   openGraph: {
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     url: "https://nu-meta.vercel.app/",
     images: [
       {
-        url: "/ogp/member.png", 
+        url: "/ogp/member.png",
         width: 1200,
         height: 630,
         alt: "Nu.メタ創",

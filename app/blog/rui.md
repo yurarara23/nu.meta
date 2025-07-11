@@ -1,6 +1,6 @@
 ---
 title: "自己紹介6"
-image: "/rui/1.png"
+image: "/rui/1new.png"
 author: "ИeЯ0（ねろ)"
 date: "2025-07-01"
 ---
