@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-const images = ["/ogp/member.png", "/2.png", "/3.png"];
+const images = ["/mizmelon/DG/dimmgate_top.webp", "/1.png", "/3.png"];
 
 const HeroSlider = () => {
   const [index, setIndex] = useState(0);
