@@ -6,13 +6,18 @@ date: "2025-09-24"
 ---
 
 # 『Dimensions Gate』
-<div>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/HHPRAg5ijXE?si=IU1PxKqYRhv2YtTh"></iframe>
-</div>  
+<div class="w-full aspect-video">
+  <iframe
+    class="w-full h-full rounded-xl"
+    src="https://www.youtube.com/embed/HHPRAg5ijXE?si=IU1PxKqYRhv2YtTh"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 メタ創として初めての作品、『Dimensions Gate』をVRChat上にて公開しました！  
 本ワールドは、4次元空間をテーマにした探索ワールドです。
-実際に4次元立方体の中を自由に歩き回ることで、3次元に居ながら4次元空間を体験することが出来ます！<br><br>  
-  
+実際に4次元立方体の中を自由に歩き回ることで、3次元に居ながら4次元空間を体験することが出来ます！
+
 ## [VRChatへのリンクはこちら](https://vrchat.com/home/world/wrld_d84a41e8-fd6a-4167-bc90-637af6fc3c41)  
 <br>
 
@@ -37,9 +42,14 @@ date: "2025-09-24"
 <br>
 
 ## 遊び方  
-<div>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/PC38aLoDdXo?si=iyH8eRJ-lxr6m21e?start=13"></iframe>
-</div>  
+<div class="w-full aspect-video">
+  <iframe
+    class="w-full h-full rounded-xl"
+    src="https://www.youtube.com/embed/HHPRAg5ijXE?si=IU1PxKqYRhv2YtTh"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 本ワールドは、4次元立方体内にある計16個の頂点を見つけ出し、それら全てを銃で破壊することが目標です。
 移動することで様々な重力となる4次元空間を、実際に感じながらお楽しみください！
 
