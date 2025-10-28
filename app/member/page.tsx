@@ -47,7 +47,7 @@ const members = [
   {
     name: "ALMA",
     year: "B3",
-    image: "/icons/alma.png",
+    image: "/icons/alma.jpg",
     role: "サウンドクリエイター",
     slug: "alma",
   }
