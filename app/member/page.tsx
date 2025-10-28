@@ -6,50 +6,51 @@ const members = [
     name: "iwa",
     year: "B2",
     image: "/icons/iwa.png",
+    role: "代表",
     slug: "iwa",
   },
   {
     name: "yurarara",
     year: "B2",
     image: "/icons/yurarara.png",
+    role: "プログラマー",
     slug: "yurarara",
   },
   {
     name: "水瓢瓜",
     year: "B2",
     image: "/icons/mizmelon.png",
+    role: "映像クリエイター",
     slug: "mizmelon",
   },
   {
     name: "ぽてぃちゃん",
     year: "B2",
     image: "/icons/pothi.png",
+    role: "シナリオライター",
     slug: "pothi",
   },
   {
     name: "紗痲",
     year: "B2",
     image: "/syama/0.png",
+    role: "アシスタントディレクター",
     slug: "紗痲",
   },
   {
     name: "ルイ",
     year: "B2",
     image: "/icons/rui.png",
+    role: "3Dモデリング",
     slug: "ルイ",
   },
   {
-    name: "shiburin",
-    year: "B2",
-    image: "/icons/shiburin.png",
-    slug: "shiburin",
-  },
-  {
-    name: "masashi",
-    year: "B4",
-    image: "/icons/masashi.png",
-    slug: "masashi",
-  },
+    name: "ALMA",
+    year: "B3",
+    image: "/icons/alma.png",
+    role: "サウンドクリエイター",
+    slug: "alma",
+  }
 ];
 
 
@@ -80,6 +81,7 @@ export default function MemberListPage() {
                 <p className="text-sm text-gray-300">
                   {member.year}
                 </p>
+                <p className="text-sm text-gray-300">{member.role}</p>
               </div>
             </div>
           </a>
