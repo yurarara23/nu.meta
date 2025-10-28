@@ -6,7 +6,7 @@ date: "2025-11-02"
 ---
 
 # IVRC特別審査委員賞受賞
-日本バーチャルリアリティ学会が主催するVR作品の学生コンテスト、IVRC（Interverse Virtual Reality Challenge） 2025 メタバース部門で、私たち制作した作品『Dimensions Gate』が、
+日本バーチャルリアリティ学会が主催するVR作品の学生コンテスト、IVRC（Interverse Virtual Reality Challenge） 2025 メタバース部門で、私たちが制作した作品『Dimensions Gate』が、
  **せきぐちあいみ賞** と **入江英嗣賞** の２つを受賞させていただきました。
 
 <figure> <img src="/yurarara/IVRC/ivrc2-3.jpg" alt="画像1" style="width:100%"> 
