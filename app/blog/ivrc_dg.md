@@ -16,6 +16,10 @@ date: "2025-11-02"
 
 <figure> <img src="/yurarara/IVRC/ivrc2-5.jpg" alt="画像3" style="width:100%"> <figcaption></figcaption> </figure>
 
+<figure> <img src="/yurarara/IVRC/prize1.jpg" alt="画像4" style="width:100%"> <figcaption></figcaption> </figure> 
+
+<figure> <img src="/yurarara/IVRC/prize2.jpg" alt="画像5" style="width:100%"> <figcaption></figcaption> </figure>
+
 この貴重な機会をくださったIVRCの運営の皆様、『Dimensions Gate』を体験、そして審査をしてくださった皆様、学生団体の立ち上げや機材提供にご協力くださった大学の職員、先生方、現地の展示会にお越しくださった皆様、そしてNu.メタ創の活動を応援していただいた皆様に心より感謝申し上げます。
 
 本作品『Dimensions Gate』は、VRを用いて４次元超立方体の世界へと入る探索型学習ゲームになります。
