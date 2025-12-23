@@ -51,6 +51,13 @@ const members = [
     role: "サウンド",
     slug: "alma",
   },
+  {
+    name: "yoshi",
+    year: "B2",
+    image: "/icons/yoshi.png",
+    role: "",
+    slug: "yoshi",
+  },
 ];
 
 export default function MemberListPage() {

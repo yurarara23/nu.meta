@@ -1,7 +1,7 @@
 ---
 title: "自己紹介8"
-image: "/yossi/2.png"
-author: "yossi"
+image: "/yoshi/2.png"
+author: "yoshi"
 date: "2025-12-24"
 ---
 
@@ -19,19 +19,19 @@ Nu.メタ創の新規メンバーでわからないことも多いですが、�
 今では VRChat で使用するためのアバター制作を勉強中です。
 
 <figure>
-  <img src="/yossi/1.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/1.png" alt="画像1" style="width:70%">
 </figure>
 
 <figure>
-  <img src="/yossi/2.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/2.png" alt="画像1" style="width:70%">
 </figure>
 
 <figure>
-  <img src="/yossi/3.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/3.png" alt="画像1" style="width:70%">
 </figure>
 
 <figure>
-  <img src="/yossi/4.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/4.png" alt="画像1" style="width:70%">
 </figure>
 
 ### Unity
@@ -40,11 +40,11 @@ Blender つながりで、作った 3D モデルを用いたゲームを制作�
 勉強のために 2D でシューティングゲームやコマンドゲームを作っています。
 
 <figure>
-  <img src="/yossi/5.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/5.png" alt="画像1" style="width:70%">
 </figure>
 
 <figure>
-  <img src="/yossi/6.png" alt="画像1" style="width:70%">
+  <img src="/yoshi/6.png" alt="画像1" style="width:70%">
 </figure>
 
 ### 目標
