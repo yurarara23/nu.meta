@@ -11,7 +11,7 @@ const NewSection = () => {
 
   return (
     <section className="py-8 px-6">
-      <h2 className="text-2xl font-bold mb-4">New</h2>
+      <h2 className="text-2xl font-bold mb-4">New Blog</h2>
       <div className="flex overflow-x-auto gap-4 pb-2 custom-scrollbar">
         {latestPosts.map((post) => (
           <div key={post.slug} className="min-w-[200px] max-w-[200px]">
@@ -24,4 +24,3 @@ const NewSection = () => {
 };
 
 export default NewSection;
-

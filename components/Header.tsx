@@ -1,9 +1,9 @@
-'use client';
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import Sidebar from './Sidebar'; 
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import Sidebar from "./Sidebar";
 
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -12,10 +12,7 @@ const Header = () => {
     <>
       <header className="flex justify-between items-center px-6 py-4 bg-black shadow-md text-white">
         <div className="flex items-center gap-4">
-          <button
-            onClick={() => setSidebarOpen(true)}
-            className="text-white"
-          >
+          <button onClick={() => setSidebarOpen(true)} className="text-white">
             <FaBars size={20} />
           </button>
 

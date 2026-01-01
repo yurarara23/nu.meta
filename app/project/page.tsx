@@ -12,12 +12,10 @@ export default function ProjectPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-950 text-gray-100 py-16 px-6">
+    <main className="min-h-screen">
       {/* タイトルセクション */}
       <section className="max-w-5xl mx-auto text-center mb-16">
-        <h1 className="text-5xl font-extrabold mb-4 text-cyan-400 tracking-wide drop-shadow-lg">
-          Project
-        </h1>
+        <h1 className="text-5xl  mb-4 text-cyan-400 tracking-wide ">Project</h1>
       </section>
 
       {/* プロジェクト一覧 */}
@@ -56,4 +54,3 @@ export default function ProjectPage() {
     </main>
   );
 }
-

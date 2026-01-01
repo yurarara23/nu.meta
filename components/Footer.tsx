@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa"; 
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
             利用規約
           </Link>
           <a
-            href="https://github.com/yurarara23/nu.meta" 
+            href="https://github.com/yurarara23/nu.meta"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-400"
