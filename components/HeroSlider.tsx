@@ -105,35 +105,10 @@ const HeroSlider = () => {
         </div>
 
         {/* 右下：X タイムライン */}
-        <div className="hidden md:block absolute bottom-6 right-6 z-40">
-          <div
-            className="
-            w-[320px] h-[480px]
-            bg-black/40 backdrop-blur
-            border border-gray-700
-            rounded-md
-            shadow-lg
-            overflow-hidden
-          "
-          >
-            <a
-              className="twitter-timeline"
-              data-theme="dark"
-              data-height="480"
-              href="https://twitter.com/nuMetasou"
-            >
-              Tweets by nuMetasou
-            </a>
-          </div>
-        </div>
       </div>
 
       {/* X widget script */}
-      <Script
-        async
-        src="https://platform.twitter.com/widgets.js"
-        strategy="afterInteractive"
-      />
+      <Script async src="https://platform.twitter.com/widgets.js" />
     </div>
   );
 };
