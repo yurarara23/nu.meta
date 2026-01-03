@@ -13,7 +13,15 @@ const PostCard = ({ title, image, slug, author }: PostCardProps) => {
   return (
     <Link
       href={`/blog/${slug}`}
-      className="group block w-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-md hover:shadow-purple-500/40 transition-all duration-300"
+      className="
+  group block w-full
+  bg-gradient-to-br from-gray-800 to-gray-900
+  rounded-md
+  border border-gray-700/80
+  shadow-[0_2px_8px_rgba(0,0,0,0.6)]
+  hover:shadow-[0_8px_30px_rgba(168,85,247,0.35)]
+  transition-all duration-300
+"
     >
       {/* 画像部分 */}
       <div className="relative w-full h-48 overflow-hidden">

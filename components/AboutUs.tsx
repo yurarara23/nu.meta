@@ -1,11 +1,11 @@
-const WhatNumSection = () => {
+const AboutUs = () => {
   return (
     <section
       className="relative px-6 py-12 text-white"
       aria-label="What is Nu.Metasou section"
     >
       <div className="relative z-20 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">What is Nu.Metasou?</h2>
+        <h2 className="text-3xl font-bold mb-4">About Us</h2>
 
         <p className="text-lg mb-8 leading-relaxed">
           Nu.メタ創は、VRC（VRChat）向けのワールドやギミックの制作をはじめ、
@@ -45,4 +45,4 @@ const WhatNumSection = () => {
   );
 };
 
-export default WhatNumSection;
+export default AboutUs;

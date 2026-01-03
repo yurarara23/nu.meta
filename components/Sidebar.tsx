@@ -36,7 +36,7 @@ export default function Sidebar({
             className="hover:bg-blue-700 p-2 rounded"
             onClick={onClose}
           >
-            member
+            Member
           </Link>
         </nav>
       </aside>

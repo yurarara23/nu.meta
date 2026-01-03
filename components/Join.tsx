@@ -24,13 +24,13 @@ const New = () => {
         </p>
 
         {/* 画像エリア */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-3 gap-4 mb-8">
           {images.map((src, index) => (
             <img
               key={index}
               src={src}
               alt={`メタ創の活動風景 ${index + 1}`}
-              className="rounded-xl object-cover"
+              className="rounded-xl object-cover aspect-[4/3] w-full"
               loading="lazy"
             />
           ))}

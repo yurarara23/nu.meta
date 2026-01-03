@@ -1,7 +1,6 @@
 import HeroSlider from "@/components/HeroSlider";
-import NewSection from "@/components/NewSection";
 import BlogSection from "@/components/BlogSection";
-import WhatNumSection from "@/components/WhatNumSection";
+import AboutUs from "@/components/AboutUs";
 import Project from "@/components/Project";
 import Join from "@/components/Join";
 
@@ -10,15 +9,21 @@ export default function HomePage() {
     <main className="min-h-screen">
       <HeroSlider />
 
-      <NewSection />
+      <section id="blog">
+        <BlogSection />
+      </section>
 
-      <WhatNumSection />
+      <section id="AboutUs">
+        <AboutUs />
+      </section>
 
-      <Project />
+      <section id="project">
+        <Project />
+      </section>
 
-      <Join />
-
-      <BlogSection />
+      <section id="join">
+        <Join />
+      </section>
     </main>
   );
 }
