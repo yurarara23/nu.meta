@@ -1,8 +1,7 @@
 // pages/terms.tsx
-import React from 'react';
-import Head from 'next/head';
+import Head from "next/head";
 
-const TermsPage: React.FC = () => {
+export default function TermsPage() {
   return (
     <>
       <Head>
@@ -33,7 +32,9 @@ const TermsPage: React.FC = () => {
           当サイトは、本サービスに事実上または法律上の瑕疵がないことを保証しません。
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-2">第4条（規約の変更）</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-2">
+          第4条（規約の変更）
+        </h2>
         <p className="mb-4">
           当サイトは、必要と判断した場合には、ユーザーに通知することなく本規約を変更できるものとします。
         </p>
@@ -42,6 +43,4 @@ const TermsPage: React.FC = () => {
       </main>
     </>
   );
-};
-
-export default TermsPage;
+}
