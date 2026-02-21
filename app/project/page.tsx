@@ -4,48 +4,75 @@ export default function ProjectPage() {
   const projects = [
     {
       title: "DimensionsGate",
-      description:
-        "メタバース空間で4次元体験を可能にする作品。IVRCメタバース部門にて入賞。",
+      description: "メタバース空間で4次元体験を可能にする作品。",
       image: "/mizmelon/DG/dimmgate_top.webp",
       link: "https://vrchat.com/home/world/wrld_d84a41e8-fd6a-4167-bc90-637af6fc3c41/info",
     },
   ];
 
   return (
-    <main className="min-h-screen">
-      {/* タイトルセクション */}
-      <section className="max-w-5xl mx-auto text-center mb-16">
-        <h1 className="text-5xl  mb-4 text-cyan-400 tracking-wide ">Project</h1>
+    <main className="min-h-screen bg-black text-white py-20 px-6">
+      <section className="max-w-5xl mx-auto text-center mb-20">
+        <h1 className="text-6xl font-extrabold mb-4 text-white tracking-tighter italic">
+          CONTENTS
+        </h1>
+        <div className="h-1 w-20 bg-cyan-500 mx-auto rounded-full" />
       </section>
 
-      {/* プロジェクト一覧 */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects.map((project) => (
           <div
             key={project.title}
-            className="bg-gray-800/60 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:shadow-cyan-500/30 border border-gray-700 hover:border-cyan-400 transition duration-300"
+            className="group bg-gray-900/40 backdrop-blur-sm rounded-3xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition-all duration-500 shadow-2xl"
           >
-            <Image
-              src={project.image}
-              alt={project.title}
-              width={600}
-              height={400}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-6">
-              <h2 className="text-2xl font-semibold mb-2 text-cyan-300">
+            <div className="relative h-56 overflow-hidden">
+              <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-60" />
+            </div>
+
+            <div className="p-8">
+              <h2 className="text-2xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">
                 {project.title}
               </h2>
-              <p className="text-gray-400 text-sm mb-6 leading-relaxed">
+              <p className="text-gray-400 text-sm mb-8 leading-relaxed h-12 line-clamp-2">
                 {project.description}
               </p>
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-cyan-500 text-black text-sm font-semibold px-5 py-2 rounded-lg hover:bg-cyan-400 hover:text-gray-900 transition"
+                className="
+                  group/btn relative inline-flex items-center justify-center 
+                  w-full px-6 py-3 
+                  overflow-hidden font-bold text-sm tracking-widest text-white 
+                  bg-transparent border border-cyan-500/50 
+                  rounded-xl transition-all duration-300
+                  hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(6,182,212,0.4)]
+                  active:scale-95
+                "
               >
-                詳しく見る
+                <span className="absolute inset-0 w-full h-full bg-cyan-500 transition-all duration-300 scale-x-0 group-hover/btn:scale-x-100 origin-left"></span>
+                <span className="relative transition-colors duration-300 group-hover/btn:text-black flex items-center gap-2">
+                  VIEW PROJECT
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    />
+                  </svg>
+                </span>
               </a>
             </div>
           </div>

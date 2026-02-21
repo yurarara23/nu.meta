@@ -45,12 +45,11 @@ const HeroSlider = () => {
 
       {/* Hero コンテンツ */}
       <div className="absolute inset-0 z-30 flex items-center justify-between px-8">
-        {/* 左：キャッチコピー + CTA */}
         <div className="max-w-xl space-y-6">
           <h1 className="text-white text-4xl md:text-5xl font-bold leading-tight">
             Creating immersive
             <br />
-            <span className="text-blue-400">Digital Creations</span>
+            <span className="text-cyan-500">Digital Creations</span>
           </h1>
 
           <p className="text-gray-300 text-base md:text-lg">
