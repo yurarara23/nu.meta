@@ -1,11 +1,11 @@
 ---
 title: "自己紹介5"
 image: "/syama/1.png"
-author: "しゃま"
+author: "syama"
 date: "2025-06-25"
 ---
-サムネはTwilight Solitudeからお借りしました。
 
+サムネはTwilight Solitudeからお借りしました。
 
 ## 挨拶
 
@@ -13,6 +13,7 @@ date: "2025-06-25"
 本プロジェクトにプロジェクト補佐という役割で関わらせていただいている甲殻類です。
 
 ![画像](/syama/4.png)
+
 <p style="font-size: 17px; margin: -33px 0 -8px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">
 メゾン荘 201号室をお借りさせていただきました。
 </p>
@@ -33,6 +34,7 @@ date: "2025-06-25"
 現在はこの経験を活かし、教育と遊びが交差する場づくりを模索しつつ、本プロジェクトにも貢献できればと考えています。
 
 ![画像](/syama/3.png)
+
 <p style="font-size: 17px; margin: -33px 0 -8px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">
 メゾン荘 201号室をお借りさせていただきました。
 </p>
@@ -59,6 +61,7 @@ date: "2025-06-25"
 私はその芽を、葉を、実を見たい。そう思い、このプロジェクトに参加しました。できることはそう多くはないかもしれませんが、少しでも芽が植わるように。
 
 ![画像](/syama/2.png)
+
 <p style="font-size: 17px; margin: -33px 0 -8px 0; padding: 0; color:rgb(190, 190, 190); text-align: center;">
 Japan Shrineをお借りさせていただきました。
 </p>

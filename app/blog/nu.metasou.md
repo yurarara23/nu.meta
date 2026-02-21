@@ -1,7 +1,7 @@
 ---
 title: "公式ページ開設"
 image: "/1.png"
-author: "metasou"
+author: "yurarara"
 date: "2025-05-20"
 ---
 

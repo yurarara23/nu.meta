@@ -1,7 +1,7 @@
 ---
 title: "自己紹介6"
 image: "/rui/1new.png"
-author: "ИeЯ0（ねろ)"
+author: "nero"
 date: "2025-07-01"
 ---
 
@@ -21,17 +21,17 @@ date: "2025-07-01"
 
 大きく影響を受けたゲームは：
 
-- ACシリーズ  
-- EXVSシリーズ  
-- DMCシリーズ  
-- GuiltyGearシリーズ  
-- DODシリーズ  
-- BLACK SOULS  
-- Moon  
-- lain  
-- 雫  
-- Bloodborne  
-- ダンガンロンパシリーズ  
+- ACシリーズ
+- EXVSシリーズ
+- DMCシリーズ
+- GuiltyGearシリーズ
+- DODシリーズ
+- BLACK SOULS
+- Moon
+- lain
+- 雫
+- Bloodborne
+- ダンガンロンパシリーズ
 
 この辺です。  
 ちょっとしたEスポーツ大会に出たり運営したりなんかもしてました。
@@ -77,4 +77,3 @@ date: "2025-07-01"
   <img src="/rui/3.png" alt="alt" style="width:100%">
   <figcaption></figcaption>
 </figure>
-
