@@ -17,7 +17,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-gray-500 text-xs tracking-widest uppercase">
-            &copy; 2025-2026 Nu.Meta Creative Studio.
+            &copy; 2026 Nu.Meta .
           </p>
         </div>
 
@@ -28,13 +28,6 @@ const Footer = () => {
             className="hover:text-cyan-400 transition-colors duration-300 relative group"
           >
             利用規約
-            <span className="absolute -bottom-1 left-0 w-0 h-px bg-cyan-500 transition-all duration-300 group-hover:w-full" />
-          </Link>
-          <Link
-            href="/privacy"
-            className="hover:text-cyan-400 transition-colors duration-300 relative group"
-          >
-            プライバシーポリシー
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-cyan-500 transition-all duration-300 group-hover:w-full" />
           </Link>
           <a
