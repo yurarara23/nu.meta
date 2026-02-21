@@ -2,7 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: #0a0a0a;
+  --background: #000000;
   --foreground: #ededed;
   --accent-cyan: #06b6d4; /* cyan-500 */
 }
