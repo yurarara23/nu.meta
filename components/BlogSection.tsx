@@ -20,7 +20,7 @@ const BlogSection = () => {
             <div className="flex items-center gap-2 mt-2">
               <span className="w-10 h-[2px] bg-cyan-500 shadow-[0_0_8px_#06b6d4]"></span>
               <p className="text-xs text-cyan-500 font-mono tracking-[0.3em] uppercase">
-                Latest Insights
+                Latest
               </p>
             </div>
           </div>
