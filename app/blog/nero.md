@@ -1,6 +1,6 @@
 ---
 title: "自己紹介6"
-image: "/rui/1new.png"
+image: "/nero/1new.png"
 author: "nero"
 date: "2025-07-01"
 ---
@@ -74,6 +74,6 @@ date: "2025-07-01"
 今後ともどうぞよろしくお願いします。
 
 <figure>
-  <img src="/rui/3.png" alt="alt" style="width:100%">
+  <img src="/nero/3.png" alt="alt" style="width:100%">
   <figcaption></figcaption>
 </figure>

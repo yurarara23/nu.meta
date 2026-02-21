@@ -16,7 +16,7 @@ const PostCard = ({ title, image, slug, author, date }: PostCardProps) => {
       className="
         group relative block w-full
         bg-gray-900/40 backdrop-blur-sm
-        rounded-xl overflow-hidden
+        overflow-hidden
         border border-white/10
         transition-all duration-500
         hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)]
@@ -36,7 +36,7 @@ const PostCard = ({ title, image, slug, author, date }: PostCardProps) => {
 
         {/* 日付バッジ */}
         <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full">
-          <p className="text-[10px] text-cyan-400 font-mono tracking-tighter">
+          <p className="text-[15px] text-cyan-400 font-mono tracking-tighter">
             {date}
           </p>
         </div>
@@ -48,7 +48,7 @@ const PostCard = ({ title, image, slug, author, date }: PostCardProps) => {
         <div className="flex items-center gap-2 mb-3">
           <span className="w-8 h-[1px] bg-cyan-500"></span>
           <p className="text-[10px] uppercase tracking-[0.2em] text-cyan-500/80 font-bold">
-            Article
+            Blog
           </p>
         </div>
 
