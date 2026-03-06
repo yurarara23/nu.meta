@@ -21,7 +21,7 @@ const members = [
     image: "/icons/potty.png",
     slug: "pothi",
   },
-  { name: "紗痲", year: "B2", image: "/syama/0.png", slug: "紗痲" },
+  { name: "紗痲", year: "B2", image: "/icons/syama.png", slug: "紗痲" },
   { name: "ルイ", year: "B2", image: "/icons/nero.png", slug: "ルイ" },
   { name: "ALMA", year: "B3", image: "/icons/alma.jpg", slug: "alma" },
   { name: "yoshi", year: "B2", image: "/icons/yoshi.png", slug: "yoshi" },
