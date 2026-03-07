@@ -25,6 +25,7 @@ const members = [
   { name: "ルイ", year: "B2", image: "/icons/nero.png", slug: "ルイ" },
   { name: "ALMA", year: "B3", image: "/icons/alma.jpg", slug: "alma" },
   { name: "yoshi", year: "B2", image: "/icons/yoshi.png", slug: "yoshi" },
+  { name: "ff", year: "B2", image: "/icons/ff.png", slug: "ff" },
 ];
 
 export default function MemberListPage() {
