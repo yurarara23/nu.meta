@@ -52,11 +52,6 @@ const HeroSlider = () => {
             <span className="text-cyan-500">Digital Creations</span>
           </h1>
 
-          <p className="text-gray-300 text-base md:text-lg">
-            We bring imagination to life through interactive media and immersive
-            experiences.
-          </p>
-
           <div className="flex gap-4">
             <a
               href="#blog"
