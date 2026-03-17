@@ -2,30 +2,45 @@ import Image from "next/image";
 import Link from "next/link"; // aタグよりLinkコンポーネントが推奨です
 
 const members = [
-  { name: "iwa", year: "B2", image: "/icons/iwa.png", slug: "iwa" },
+  { name: "iwa", year: "理工/情報/B2", image: "/icons/iwa.png", slug: "iwa" },
   {
     name: "yurarara",
-    year: "B2",
+    year: "理工/情報/B2",
     image: "/icons/yurarara.png",
     slug: "yurarara",
   },
   {
     name: "mizmelon",
-    year: "B2",
+    year: "理工/交通/B2",
     image: "/icons/mizmelon.png",
     slug: "mizmelon",
   },
   {
     name: "potty",
-    year: "B2",
+    year: "芸術/文芸/B2",
     image: "/icons/potty.png",
     slug: "potty",
   },
-  { name: "syama", year: "B2", image: "/icons/syama.png", slug: "syama" },
-  { name: "nero", year: "B2", image: "/icons/nero.png", slug: "nero" },
-  { name: "alma", year: "B3", image: "/icons/alma.jpg", slug: "alma" },
-  { name: "yoshi", year: "B2", image: "/icons/yoshi.png", slug: "yoshi" },
-  { name: "ff", year: "B2", image: "/icons/ff.png", slug: "ff" },
+  {
+    name: "syama",
+    year: "理工/情報/B2",
+    image: "/icons/syama.png",
+    slug: "syama",
+  },
+  { name: "nero", year: "工/電気/B2", image: "/icons/nero.png", slug: "nero" },
+  {
+    name: "alma",
+    year: "芸術/音楽/B3",
+    image: "/icons/alma.jpg",
+    slug: "alma",
+  },
+  {
+    name: "yoshi",
+    year: "理工/電気/B2",
+    image: "/icons/yoshi.png",
+    slug: "yoshi",
+  },
+  { name: "ff", year: "理工/情報/B2", image: "/icons/ff.png", slug: "ff" },
 ];
 
 export default function MemberListPage() {
@@ -73,7 +88,7 @@ export default function MemberListPage() {
               <h2 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors duration-300">
                 {member.name}
               </h2>
-              <p className="text-xl mt-1 font-mono tracking-widest">
+              <p className="text-xl mt-1 font-bold tracking-widest">
                 {member.year}
               </p>
 
