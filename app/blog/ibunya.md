@@ -1,5 +1,5 @@
 ---
-title: "超異分野学会ポスター出展"
+title: "超異分野学会出展"
 image: "/yurarara/ibunya/1.png"
 author: "iwa"
 date: "2026-03-07"

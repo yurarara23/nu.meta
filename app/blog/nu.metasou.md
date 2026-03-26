@@ -1,6 +1,6 @@
 ---
 title: "公式ページ開設"
-image: "/1.png"
+image: "/ogp/member.png"
 author: "yurarara"
 date: "2025-05-20"
 ---
