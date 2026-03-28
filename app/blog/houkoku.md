@@ -21,7 +21,7 @@ date: "2026-03-16"
   <img src="/yurarara/houkoku/3.png" alt="Booth出品画像" style="width:100%"> 
 </figure>
 
-その後、なぜか四谷まで歩き、アフタヌーンティーを嗜みましたわ。
+その後、なぜか四谷まで歩き、アフタヌーンティーを嗜みました。
 
 <figure> 
   <img src="/yurarara/houkoku/5.png" alt="Booth出品画像" style="width:100%"> 
