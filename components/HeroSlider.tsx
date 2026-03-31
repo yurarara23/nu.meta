@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const images = [
   "/yurarara/IVRC/ivrc5.jpg",
+  "/yurarara/vkasai/3.png",
   "/mizmelon/DG/dimmgate_top.webp",
-  "/ogp/member.png",
 ];
 
 const HeroSlider = () => {
