@@ -10,8 +10,8 @@ date: "2025-04-03"
 初めまして！ゆらららと申します！
 趣味はシステム開発やコンテンツ制作です！
 
-過去の制作物などについては、下のURLで紹介していますので、よければ見てみてください！
-[YurararaFolio](https://yurarara-folio.vercel.app/)
+自身の詳細や過去の制作物などについては、下のURLで紹介していますので、よければ見てみてください！
+[yura_folio](https://github.com/yurarara23/yura_folio)
 
 ---
 
