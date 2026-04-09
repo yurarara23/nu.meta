@@ -21,7 +21,7 @@ const AboutUs = () => {
 
           <ButtonLink href="/member">メンバー紹介</ButtonLink>
 
-          <ButtonLink href="https://yurarara23.github.io/NewDocs/">
+          <ButtonLink href="https://nu-digital.github.io/nu-document/">
             部内ドキュメント
           </ButtonLink>
         </div>
